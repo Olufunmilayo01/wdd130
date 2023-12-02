@@ -139,8 +139,13 @@ footer {
   display: grid;
   grid-template-columns: 2fr 3fr 1fr 4fr;
   grid-template-rows: min-content;
-background-color: var(--accent1-color);
-place-items: center;
+  background-color: var(--accent1-color);
+  place-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 footer .logo-img{
     max-width: 60px;
@@ -148,4 +153,33 @@ footer .logo-img{
 }
 footer p{
     color: white;
+}
+
+/* About me page*/
+
+.aboutme {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  place-items: center;
+  padding: 5rem;
+  font-size: 1.75rem;
+}
+.aboutme p {
+  padding: 2rem;
+  text-align: center;
+}
+.aboutme-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+.aboutme-content img {
+  max-width: 900px;
+  place-items: center;
+}
+
+.aboutme-content p {
+  text-align: left;
+  padding: 2rem;
 }
