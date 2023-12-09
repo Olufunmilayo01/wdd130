@@ -4,49 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio page</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
-  <body>
+  <body class="container">
     <header>
-      <div id="logo">
-        <img src="images/Websitelogo.png" alt="logo" />
+    <div class="header-content">
+        <div id="logo">
+        <img src="images/Websitelogo.png" alt="logo">
       </div>
 
       <nav>
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">About me</a>
-        <a href="portfolio.html">portfolio</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="aboutme.html">About me</a>
+        <a class="nav-link" href="portfolio.html">portfolio</a>
       </nav>
       <div class="social">
         <a href="https://facebook.com" target="_blank">
-          <img src="images/facebook.jpeg" alt="fb icon" />
+          <img class="icon-img" src="images/facebooklogo.jpeg" alt="fb icon">
         </a>
-        <a href="https://twitter.com" target="_blank">
-          <img src="images/github.jpeg "alt="Github icon" height="200px"/>
+        <a href="https://github.com" target="_blank">
+          <img class="icon-img" src="images/githublogo.jpeg" alt="Github icon">
         </a>
         <a href="https://instagram.com" target="_blank">
-          <img src="images/instagram.jpeg" alt="instagram icon" />
-          </a>
+          <img
+            class="icon-img"
+            src="images/ig.jpeg" alt="instagram icon">
+        </a>
+      </div>
     </div>
     </header>
 
     <main>
-        <section class="portfolio-heading">
-            <h1>MY PROJECTS</h1>
-            <p>here are a few of the personal projects I have worked on</p>
-            <div class="portfolio-pic">
-                <img src="images/imageOne.png" alt="image for portfolio page">
-                <img src="images/imageTwo.png" alt="image for portfpolio page">
-            </div>
-        </section>
+      <section class="portfolio">
+        <h1>MY PROJECTS</h1>
+        <div class="portfolio-heading">
+          <p>Here are a few of the personal projects I have worked on</p>
+          <button class="portfolio-button">View more</button>
+        </div>
+
+        <div class="portfolio-pic">
+          <img
+            class="portfolio-img"
+            src="images/imageOne.png"
+            alt="image for portfolio page"
+          />
+          <img
+            class="portfolio-img"
+            src="images/imageTwo.png"
+            alt="image for portfpolio page"
+          />
+          <img
+            class="portfolio-img"
+            src="images/imageTwo.png"
+            alt="image for portfpolio page"
+          />
+          <img
+            class="portfolio-img"
+            src="images/imageOne.png"
+            alt="image for portfolio page"
+          />
+        </div>
+      </section>
+      <hr class="line"/>
+      <div class="contact-section">
+       
+        <p>Get in Touch</p>
+        <button class="contactus">Contact Us</button>
+      </div>
     </main>
 
+
     <footer>
-        <p> &copy; 2023 Oluwatobiloba Makinde</p>
-        <p><a href="site-plan.html">Site plan</a></p>
+      <img class="logo-img" src="images/Websitelogo.png" alt="logo">
+      <p> &copy; 2023 Oluwatobiloba Makinde</p>
+        <p><a class="nav-link" href="site-plan.html">Site plan</a></p>
         <div class="footerlinks">
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">About me</a>
-        <a href="portfolio.html">portfolio</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="aboutme.html">About me</a>
+        <a class="nav-link" href="portfolio.html">portfolio</a>
     </div>
     </footer>
   </body>
